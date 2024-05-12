@@ -113,8 +113,28 @@ text-align: justify;
     height: 300px;
     max-width: 600px;
 }
-
-
+.card{
+    border: 2.5px solid black;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    line-height: 2rem;
+    margin: 20px auto;
+}
+.card h3{
+    background-color: rgba(148, 143, 143,0.3);
+    padding: 10px 0;
+    }
+    .card h2{
+        margin:10px 0;
+    }
+    .card button{
+        background-color: orange;
+        padding: 10px 20px;
+        font-size:16px ;
+        margin: 20px 0;
+        border: none;
+    }
 @media screen and (min-width:768px) {
     /* Header CSS for Tablet devices */
     #header{
@@ -165,6 +185,14 @@ text-align: justify;
 
     nav#nav-bar a.nav-link{
         margin-right: 2rem;
+    }
+    .price-card{
+        display: flex;
+        justify-content:center;
+
+    }
+    .card{
+        margin: 20px 5px;
     }
 }
 
