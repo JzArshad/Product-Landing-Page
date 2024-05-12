@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Landing Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="styles.css" type="text/css">
 </head>
 <body>
@@ -13,7 +14,7 @@
         
         <nav id="nav-bar">
             <a class="nav-link" href="#">Home</a>
-            <a class="nav-link" href="">Features</a>
+            <a class="nav-link" href="#features">Features</a>
             <a class="nav-link" href="">How it Works</a>
             <a class="nav-link" href="">Pricing</a>
         </nav>
@@ -23,9 +24,53 @@
     <!-- Hero Section Starts here -->
     <section class="hero">
         <h2>Handcrafted, home-made masterpieces</h2>
-        <input type="email" placeholder="Enter your Email">
-        <input type="submit" value="Get Started">
+        <form action="https://www.freecodecamp.com/email-submit">
+            <input type="email" placeholder="Enter your Email" required>
+            <input type="submit" value="Get Started">
+        </form>
     </section>
+    <!-- Hero Section Ends here -->
+
+    <!-- features section starts here -->
+    <section class="features" id="features">
+        <div class="feature__container">
+            <i class="fa-solid fa-fire-flame-curved"></i>
+            <div class="desc">
+                <h2>Premium Materials</h2>
+                <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+            </div>
+        </div>
+        <div class="feature__container">
+            <i class="fa-solid fa-truck"></i>
+            <div class="desc">
+                <h2>Fast Shipping</h2>
+                <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+            </div>
+        </div>
+        <div class="feature__container">
+            <i class="fa-solid fa-battery-full "></i>
+            <div class="desc">
+                <h2>Quality Assurance</h2>
+                <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+            </div>
+        </div>
+    </section>
+<!-- features section ends here -->
+
+<!-- how it works section starts here -->
+    <section id="how-it-works">
+        <iframe
+          id="video"
+          src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+      </section>
+      <!-- how-it-works section ends -->
+
+      <section>
+
+      </section>
     
 </body>
 </html>
